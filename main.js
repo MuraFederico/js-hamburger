@@ -1,7 +1,7 @@
-let btnHam = document.querySelector('a');
+let btnHam = document.querySelector('.header-right > a');
 let dropDown = document.querySelector('.hamburger-menu');
 
-// console.log(dropDown);
+console.log(btnHam);
 
 
 btnHam.addEventListener('click', function() {

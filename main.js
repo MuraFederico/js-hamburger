@@ -7,9 +7,9 @@ let btnHidden = document.querySelector('.close');
 
 
 btnHam.addEventListener('click', function() {
-    dropDown.style.display = 'block';
+    dropDown.classList.toggle('active')
 });
 
 btnHidden.addEventListener('click', function() {
-    dropDown.style.display = 'none';
+    dropDown.classList.toggle('active')
 });
